@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Игры English</title>
+    <link rel="stylesheet" href="game2.css">
+</head>
+<body>
+    <div id="header">
+        <h1 id="jobTitle"></h1>
+    </div>
+    <div id="timer">
+        <p id="timerGame"></p>
+    </div>
+    <form id="form">
+        <div class="question">
+            <img src="анг слова цвет.jpg" alt="img" width="500px">
+            <br>
+            <div class="questionStyle">
+                <label>Какого цвета нет на картинке?</label>
+                <br>
+                <input type="radio" name='question1'>green
+                <br>
+                <input type="radio" name='question1'>yellow
+                <br>
+                <input type="radio" name='question1'>blue
+                <br>
+                <input type="radio" name='question1'>cyan
+                <br>
+                <input type="radio" name='question1'>red 
+                <br>
+                <input type="radio" name='question1'>orange
+                <br>
+                <input type="radio" name='question1'>purple
+                <br>
+                <span><input type="radio" name='question1' id="answer1">pink</span><br>
+            </div>
+        </div>
+        <div class="question">
+            <img src="анг слова цвет.jpg" alt="img" width="500px">
+            <br>
+            <div class="questionStyle">
+                <label>Какого предмета нет на картинке?</label>
+                <br>
+                <input type="radio" name='question2'>boat
+                <br>
+                <input type="radio" name='question2'>leaf
+                <br>
+                <span><input type="radio" name='question2' id="answer2">window</span>
+                <br>
+                <input type="radio" name='question2'>pencil
+                <br>
+                <input type="radio" name='question2'>armchair
+                <br>
+                <input type="radio" name='question2'>cup
+                <br>
+                <input type="radio" name='question2'>moon
+                <br>
+                <input type="radio" name='question2'>teapot  
+        </div>
+        </div>
+        <div class="question">
+            <img src="для анг слов.png" alt="img" width="500px">
+            <br>
+            <div class="questionStyle">
+                <label>Какого животного нет на картинке?</label>
+                <br>
+                <input type="radio" name='question3'>cat
+                <br>
+                <input type="radio" name='question3'>chicken 
+                <br>
+                <span><input type="radio" name='question3' id="answer3">cow</span>
+                <br>
+                <input type="radio" name='question3'>sheep 
+                <br>
+                <input type="radio" name='question3'>fish 
+                <br>
+                <input type="radio" name='question3'>mouse 
+                <br>
+                <input type="radio" name='question3'>parrot 
+                <br>
+                <input type="radio" name='question3'>horse 
+                <br>
+                <input type="radio" name='question3'>butterfly 
+                <br>
+                <input type="radio" name='question3'>dog 
+        </div>
+    </div>
+        <div class="question">
+            <img src="слова анг2.jpg" alt="img" width="500px">
+            <br>
+            <div class="questionStyle">
+                <label>Какого предмета нет на картинке?</label>
+                <br>
+                <span><input type="radio" name='question4' id="answer4">book</span>
+                <br>
+                <input type="radio" name='question4'>ball 
+                <br>
+                <input type="radio" name='question4'>lemon 
+                <br>
+                <input type="radio" name='question4'>cucumber 
+                <br>
+                <input type="radio" name='question4'>glass 
+                <br>
+                <input type="radio" name='question4'>apple 
+                <br>
+                <input type="radio" name='question4'>ice cream
+            </div>
+        </div>
+        <div class="question">
+            <img src="англ.jpg" alt="img" width="500px">
+            <br>
+            <div class="questionStyle">
+                <label>Какого предмета нет на картинке?</label>
+                <br>
+                <input type="radio" name='question5'>car
+                <br>
+                <input type="radio" name='question5'>plane
+                <br>
+                <input type="radio" name='question5'>bird 
+                <br>
+                <span><input type="radio" name='question5' id="answer5">train</span>
+                <br>
+                <input type="radio" name='question5'>bus  
+            </div>
+        </div>
+        <div> 
+            <button type="submit" id="btnResult">Результат</button>
+        </div> 
+        <p id="showResult"></p>
+        <div> 
+    </form>
+    <audio id="myAudio" src="z.mp3" autoplay="allowed"></audio>
+    
+    <script src="game2.js"></script>
+</body>
+</html>
